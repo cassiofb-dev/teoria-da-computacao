@@ -31,10 +31,6 @@ conjunto de movimentos válidos para o elevador ao longo de um dia de funcioname
 
 Com base na questão acima deverão ser entregues:
 
-<style type="text/css">
-    ol { list-style-type: upper-alpha; }
-</style>
-
 1. A especificação formal do autômato (grafo, tabela ou função de transição).
 2. Um texto justificando seu raciocínio para a montagem do autômato.
 3. A implementação do autômato em python conforme o modelo utilizado em aula.
@@ -42,7 +38,9 @@ Com base na questão acima deverão ser entregues:
 
 ## Especificação Formal
 
-![qd1a](https://i.imgur.com/8fOSBqx.png)
+<p align="center">
+  <img src="https://i.imgur.com/8fOSBqx.png" alt="qd1a">
+</p>
 
 ## Desenvolvimento
 
@@ -53,7 +51,7 @@ para acrescentar um estado aberto e fechado com relações as portas com suas a�
 Considerei durante o desenvolvimento que a porta do elevador deverá sempre terminar aberta pois a
 pessoa não conseguirá entrar no elevador no dia seguinte.
 
-## Código Python
+## [Código Python](https://github.com/cassiofb-dev/teoria-da-computacao/blob/master/src/qd1a.py)
 
 O código foi desenvolvido com base no [repositório do público do professor Joel dos Santos](https://github.com/joeldossantos/Teoria-da-Computacao). Para executar será preciso [python3](https://www.python.org/) e [git](https://git-scm.com/) instalados.
 
