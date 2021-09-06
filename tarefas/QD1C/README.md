@@ -4,10 +4,10 @@
 
 <p align="center">
   <a href="#instruções">Instruções</a> •
-  <a href="#especificação-formal">Especificação Formal</a> •
+  <a href="#diagrama-de-sequência">Diagrama de Sequência</a> •
   <a href="#desenvolvimento">Desenvolvimento</a> •
   <a href="#código-python">Código Python</a> •
-  <a href="#teste">Testes</a>
+  <a href="#testes">Testes</a>
 </p>
 
 ![cefet](https://i.imgur.com/K0E5iFC.jpg)
