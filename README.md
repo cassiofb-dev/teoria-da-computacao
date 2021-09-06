@@ -63,8 +63,8 @@ Joel Andre Ferreira dos Santos.
 Tarefas da disciplina:
 
 - [x] QD 1a
-- [ ] QD 1b
-- [ ] QD 1c
+- [x] QD 1b
+- [x] QD 1c
 - [ ] QD 2a
 - [ ] QD 2b
 - [ ] QD 2c

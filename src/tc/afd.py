@@ -50,7 +50,7 @@ class AFD:
     self.estado_final = estado_final
     self.palavra = palavra
     self.estado_atual = estado_inicial
-  
+
   def transita(self) -> None:
     """
     Realiza uma transição interativa
@@ -61,8 +61,8 @@ class AFD:
       a = input('Entre com uma transição: ')
       if a == '$': break
       AFD.delta(self, self.estado_atual, a)
-      
-  
+
+
   @staticmethod
   def delta(automato: 'AFD', estado: str, simbolo: str) -> str:
     """
@@ -106,7 +106,7 @@ class AFD:
         AFD.delta_hat(automato, estado, palavra),
         simbolo
       )
-  
+
   @staticmethod
   def aceita(automato: 'AFD', palavra: list[str]):
     """
@@ -140,7 +140,7 @@ class AFD:
       simbolo = palavra.pop(0)
       proximo = AFD.delta(automato, estado, simbolo)
       return config + AFD.computacao(automato, proximo, palavra)
-  
+
   @staticmethod
   def testa(automato: 'AFD', fita: str) -> None:
     """
