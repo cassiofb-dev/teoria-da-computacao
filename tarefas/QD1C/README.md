@@ -1,5 +1,5 @@
 <h1 align="center">
-  Questão Desafio 1A
+  Questão Desafio 1C
 </h1>
 
 <p align="center">
@@ -26,7 +26,7 @@ Com base na questão acima deverão ser entregues:
 ## Diagrama de Sequência
 
 <p align="center">
-  <img src="" alt="diagrama_qd1c">
+  <img src="https://i.imgur.com/pYTP7Wm.png" alt="diagrama_qd1c">
 </p>
 
 ## Desenvolvimento
