@@ -47,13 +47,6 @@ Partindo do teorema que expressões regulares e autômatos finitos não determin
      - ```delta```
      - ```eclose```
 
-Partindo de que um elevador pode subir e descer ao prescionar os botões de subir e descer, podemos
-fazer facilmente um autômato que só represente esse modelo e depois podemos expandir ele nas laterais
-para acrescentar um estado aberto e fechado com relações as portas com suas ações de abrir e fechar.
-
-Considerei durante o desenvolvimento que a porta do elevador deverá sempre terminar aberta pois a
-pessoa não conseguirá entrar no elevador no dia seguinte.
-
 ## [Código Python](https://github.com/cassiofb-dev/teoria-da-computacao/blob/master/src/qd1c.py)
 
 O código foi desenvolvido com base no [repositório do público do professor Joel dos Santos](https://github.com/joeldossantos/Teoria-da-Computacao). Para executar será preciso [python3](https://www.python.org/), [git](https://git-scm.com/) instalados.
