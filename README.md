@@ -65,7 +65,7 @@ Tarefas da disciplina:
 - [x] QD 1a
 - [x] QD 1b
 - [x] QD 1c
-- [ ] QD 2a
+- [x] QD 2a
 - [ ] QD 2b
 - [ ] QD 2c
 
