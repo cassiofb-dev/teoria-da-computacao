@@ -142,3 +142,5 @@ Em ambos os casos seram acrecentado o símbolo 'S' no topo da árvore de deriva�
 - Caso Ímpar:
   - Não será acrecentada a letra vazia como no caso par, logo seu tamanho será:
     - (n - 1) + 2, onde n é o tamanho da palavra
+
+A maior difuculdade de encontrar uma solução para esse problema foi justamente pensar na recursividade da gramática, acredito que uma boa estratégia seria olhar para as recursividades de um GLC.
